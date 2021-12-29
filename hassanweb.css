@@ -1,0 +1,87 @@
+body{background-color:lightgray;
+	color: #555;
+	font-family: Aria,Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 1.6em;
+	margin: 10px;}
+.cont{margin:auto ;
+        width: 80%;
+     overflow: hidden;}
+
+#main-header{ background-color:#f3971b;
+             text-align: center;
+          color: whitesmoke;
+           font-family: Castellar;
+           border: 3px groove antiquewhite;}
+
+#navbar{
+	background-color: black;
+	color:ghostwhite;
+	/*border: 5px groove indianred;*/
+}
+#navbar ul{
+	padding: 50;
+	list-style: none;
+}
+#navbar li{
+	display: inline;
+}
+#navbar a{
+	color: #fff;
+	text-decoration: none;
+	float: center;
+	font-size: 18px;
+	padding-right: 15px;
+}
+#navbar a:hover{color: black;}
+#navbar button{background-color: darkred;
+                 padding: 5px;
+                 float: center;
+                 color: ghostwhite;
+              margin: 5px;}
+     #navbar button:hover{background-color:orange;
+                           color: black;}
+ #showcase{
+	background-image: url('../pic/8.jpg');
+	background-position: center center;
+	main-height: 300px;
+	margin-bottom: 30px;
+	text-align: center;
+	
+}
+#showcase h1{
+	color:black;
+	font-size: 50px;
+	
+	line-height: 1.7em;
+	padding-top: 30px;
+}
+.mark{background-color: bisque;
+          color: red;}
+
+ #sidebar{
+	float:right;
+	width: 30%;
+	background-color: #333;
+	color: #fff;
+	padding:10px;
+	box-sizing: border-box;
+}
+#main-footer{
+	background-color:black;
+	color: navajowhite;
+	text-align: center;
+	font-size: 18px;
+	padding: 30;
+	margin-top: 40px;
+}
+@media(max-width 600px){
+	#main{
+		width: 100px;
+		float: none;
+	}
+	#sidebar{
+		width: 100px;
+		float: none;
+	}
+}
